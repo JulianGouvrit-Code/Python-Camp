@@ -1,0 +1,5 @@
+import random
+
+test_list = ["dirt common", "dirt common", "dirt common", "dirt common", "dirt common", "dirt common", "dirt common", "dirt common", "dirt common", "dirt common", "rare", "rare","rare","rare", "rare", "rare", "rare", "legandary", "legandary", "legandary", "legandary", "EPIC", "EPIC", "YOU WIN!!!       -    1 PERCENT CHANCE     -            CONGRATULATIONS"]
+
+print(test_list[random.randint(0,len(test_list)-1)])
